@@ -26,3 +26,5 @@ class PersonWithMiddlename extends Person {
     return `${this.name} ${this.middlename} ${this.surname}`;
   }
 }
+
+console.log(new PersonWithMiddlename());
