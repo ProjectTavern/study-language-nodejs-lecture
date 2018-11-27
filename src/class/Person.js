@@ -15,3 +15,14 @@ class Person {
 }
 
 console.log(new Person());
+
+class PersonWithMiddlename extends Person {
+  constructor(name, middlename, surname, age) {
+    super(name, surname, age);
+    this.middlename = middlename;
+  }
+
+  getFullName() {
+    return `${this.name} ${this.middlename} ${this.surname}`;
+  }
+}
