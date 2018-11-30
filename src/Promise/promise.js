@@ -13,4 +13,4 @@ promise
   })
   .catch((error) => {
     console.error(error);
-  })
+  });
